@@ -23,6 +23,7 @@ function [h, y] = ReachA(X)
     A = [A1; 1 0; 0 1];
     B = [B1; 10; 10];
         
-    y = quadprog(H, [], A, B, [], [], [], []);  
+    opts = optimoptions(@quadprog, 'Display', 'off', 'TolFun', 1e-5, 'TolCon', 1e-4);
+    y = quadprog(H, [], A, B, [], [], [], [], [], opts);  
 
 end
