@@ -1,4 +1,5 @@
-# IFAC2020_ContinuousTaskBarriers
+# Continuous Reachability Task Transition Using Control Barrier Functions
+
 This repository contains code to simulate the experiments in our paper titled, "Continuous Reachability Task Transition Using Control Barrier Functions", accepted for publication at the 2020 IFAC World Congress.
 
 In order to execute the code, please follow the instructions:
